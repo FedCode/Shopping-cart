@@ -1,0 +1,787 @@
+
+
+:root{
+    --bgdrak:#003335;
+    --bgred:red;
+}
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ece9e9;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Raleway", serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin: 1rem;
+}
+.card h3 {
+    font-size: 15px;
+    font-weight: 600;
+    max-width: 75%;
+    margin: 0 auto 8px;
+}
+
+header {
+    background-color:var(--bgdrak);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Orders p {
+    margin: 0;
+}
+#getuserlocation p {
+    font-size: 13px;
+    margin: 0;
+}
+.location {
+    line-height: 17px;
+    font-size: 13px;
+}
+.icons-title {
+    margin-right: .5rem;
+    font-size: 19px;
+}
+main {
+    padding:45px 20px;
+}
+.cartFooter {
+    background: #ffe9e9;
+    padding: 5px 10px;
+    align-content: center;
+    display: flex;
+    border-radius: 8px;
+    border: 1px #ddd solid;
+}
+#bannerImage div img {
+    width: 100%;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.buyNow {
+    width: 25%;
+    height: 36px;
+    background: var(--bgred);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.carttotlaprice p {
+    color: #000;
+    margin: 0;
+    height: auto;
+    line-height: 38px;
+}
+.getpdf {
+    background: inherit;
+    color: #003335;
+    font-size: 14px;
+    padding: 0 10px;
+    border: 0;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    border: 2px #003335 solid;
+    font-weight: 550;
+}
+.carttotlaprice {
+    width: 50%;
+    text-align: right;
+    display: flex;
+    align-content: center;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+}
+
+.product {
+    border: 1px solid #ccc;
+
+    margin: 10px;
+    width: 300px;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1), inset 0 -3px 3px rgba(0, 0, 0, 0.1);
+
+}
+header h1 {
+    margin: 0;
+}
+.searchforminline input {
+    height: 42px;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 5px 0px 0 5px;
+    border: 1px #ddd solid;
+}
+.searchforminline button {
+    width: 62px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px red solid;
+    background: red;
+    color: #fff;
+}
+#getuserlocation p {
+    font-size: 13px;
+    margin: 0;
+}
+#checkoutBtn {
+    margin-top: 10px;
+}
+#cartBtn {
+    width: 80px;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    border-radius: 10px;
+    float: right;
+}
+
+#cartBtn:hover {
+    cursor: pointer;
+    background-color: #4f4e4e;
+}
+
+.img_con {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    background-color: #e3e2e2;
+   }
+
+.img_con button {
+    background-color: transparent;
+    width: 20px;
+    border: none;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.img_con button:hover {
+    cursor: pointer;
+    background-color: #e3e2e2;
+}
+
+.card_footer {
+    text-align: center;
+}
+
+.addToCartBtn {
+    border-radius: 5px;
+    font-size: large;
+    border: 1px solid black;
+}
+
+.addToCartBtn:hover {
+    cursor: pointer;
+}
+#previousImage {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    padding: 0;
+    background-color: inherit;
+    border: 0;
+}
+#nextImage {
+    position: absolute;
+    right:12px;
+    top: 50%;
+    padding: 0;
+    border: 0;
+    background-color: inherit;
+}
+.cart_item {
+    display: block;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+}
+
+.cart_item span {
+
+    margin-right: 20px;
+}
+
+.cart_item button {
+    float: right;
+}
+.card {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    width: 19%;
+    box-shadow: 5px 10px 15px -5px #ddd;
+    /* border: 1px #bfbdbd solid; */
+}
+.card img {
+    object-fit: cover;
+}
+#cartBtn {
+    border: 0;
+    padding: 0;
+}
+.prev-btn,
+.next-btn {
+    width: 25px;
+    border: 0;
+    background-color: #eedb1163;
+    border: 1px #ddd solid;
+    border-radius: 100%;
+    font-size: 12px;
+    height: 25px;
+    padding: 1px;
+}
+.prev-btn {
+    position: absolute;
+    left:10px;
+    top: 50%;
+}
+.next-btn{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+.addtocart {
+    background:var(--bgdrak);
+    border-radius: 5px;
+    width: 127px;
+    margin: 0 auto;
+    height: 37px;
+    font-weight: 550;
+    color: #fff;
+    border: 2px #003335 solid;
+}
+.addtocart:hover {
+    background-color: #003335;
+    color: #fff;
+}
+.tuck-icon i {
+    font-size: 18px;
+}
+.Orders {
+    width: 83%;
+}
+#cartBtn {
+    border: 0;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    /* width: 24%; */
+}
+#cartBtn:hover {
+    background-color: inherit;
+    color: red;
+    transition: all 0.5s ease-in;
+}
+#cartBtn span {
+    position: absolute;
+    background: #ff0000c2;
+    font-size: 10px;
+    height: 16px;
+    width: 16px;
+    border-radius: 50px;
+    position: relative;
+    right: 0;
+    top: -7px;
+}
+.bextPrevbuttons button {
+    position: absolute;
+    background: none;
+    border: 1px #ddd solid;
+    left: 8px;
+    right: auto;
+    top: 44%;
+    background: red;
+    color: #fff;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.bextPrevbuttons .nextIcon {
+    right: 7px;
+}
+.bextPrevbuttons .nextIcon {
+    right: 6px;
+    left: auto;
+}
+.card img {
+    height: 125px;
+    object-fit: contain;
+}
+.cart.show {
+    opacity: 1;
+    right: 9px;
+}
+.buyNow:hover {
+    background-color: #003335;
+    transition: all 0.5 ease-in;
+}
+.cart {
+    opacity: 1;
+    position: fixed;
+    top: 77px;
+    width: 390px;
+    min-height: 169px;
+    background-color: #fff;
+    color: white;
+    padding: 0px;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    left: auto;
+    right: -390px;
+    box-shadow: 5px 6px 9px #ddd;
+    border-radius: 10px 10px;
+}
+#loadder {
+    background: #ddd;
+    position: absolute;
+    height: 100vh;
+}
+.flex-card {
+    border: 1px #ddd solid;
+    padding: 10px;
+    border-radius: 6px;
+    background: #eff9ee;
+    margin-bottom: 0.4rem;
+    color: #000;
+}
+.flex-card h4 {
+    font-size: 14px;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 24px;
+    margin-top: 0;
+}
+.cart-header {
+    background: var(--bgdrak);
+    padding: 12px 15px;
+    border-radius: 10px 10px 0 0;
+}
+.cart-header h2 {
+    margin: 0;
+    color: #fff;
+}
+#closeDrawer {
+    background: inherit;
+    border: 0;
+    padding: 0;
+    color: #fff;
+}
+.flex-card p {
+    margin: 0 10px 0 0px;
+    font-size: 14px;
+    width: 20%;
+}
+.cart-header h2 {
+    color: #fff;
+    margin: 0;
+}
+.cart-header h2 {
+    font-size: 22px;
+}
+.showquantity {
+    font-size: 14px;
+}
+
+.plus-product,
+.minus-product {
+    padding: 0;
+    line-height: 7px;
+    font-size: 17px;
+    background: no-repeat;
+    padding: 3px;
+    border-radius: 6px;
+    border: 0;
+    width: 24px;
+    color: #f006;
+}
+.colorweight {
+    color: #f00;
+    font-weight: bold;
+    font-size: 17px;
+}
+#cartList {
+    padding: 10px;
+   
+    overflow-y: auto;
+}
+.brandname img {
+    width: 170px;
+}
+.cuponCodebuton {
+    width: 44%;
+    height: 40px;
+    border-radius: 0px 6px 6px 0px;
+    background: #ddd;
+    border: 1px #ddd solid;
+    font-size: 14px;
+}
+.cuponCode input {
+    width: 56%;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px #ddd solid;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.cuponCode {
+    padding: 6px 10px;
+    margin-bottom: 0.5rem;
+}
+#CategorySlider {
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#CategorySlider .card {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 2rem 1rem;
+    position: relative;
+    width: 19%;
+}
+.carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    gap: 10px;
+}
+.carousel .card {
+    flex: 1 0 30%;
+    /* 3 cards visible at a time */
+    transition: transform 0.5s ease-in-out;
+    opacity: 0.9;
+}
+
+.card.grociricard{flex: 1 0 18%;}
+.card.active {
+    
+    /* Highlight the middle card */
+    opacity: 1;
+    background-color: rgb(252, 250, 250) !important;
+    border: 1px red solid;
+}
+.toast-container.position-fixed {
+    top: 3%;
+    left: 0;
+    right: 0;
+    width: 400px;
+    z-index: 1;
+    margin: 0 auto;
+}
+.card img {
+    width: 100%;
+    /* Ensure images fit within the card */
+
+}
+.banner-height {
+    height: 310px;
+    align-content: center;
+    border-radius: 16px;
+    max-width: 98%;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 3px 3px 10px 3px #55414140;
+}
+.searchforminline input:focus {
+    outline: 0;
+    background: #ddd;
+}
+.card-content h4{
+    font-size:18px;
+}
+
+
+        footer {
+            background-color:var(--bgdrak);
+            color: #fff;
+            padding: 50px 0;
+        }
+        footer h5 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-left: 0;
+        }
+    
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    
+        footer a:hover {
+            color: #f0f0f0;
+        }
+    
+        .social-icons a {
+            font-size: 1.5rem;
+            margin: 0 10px;
+        }
+    
+        .footer-links a {
+            font-size: 0.9rem;
+            margin: 5px 0;
+        }
+    
+        .footer-bottom {
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            text-align: center;
+        }
+    
+        .footer-bottom small {
+            font-size: 0.8rem;
+            color: #ccc;
+        }
+
+.toast {
+    width: 350px;
+    max-width: 100%;
+    font-size: .875rem;
+    pointer-events: auto;
+   background-color: #14a80026;
+    border-radius: 5px;
+    padding: 8px !important;
+}
+.toast-header {
+    display: flex;
+    align-items: center;
+    color: #6c757d;
+    background-clip: padding-box;
+    background-color: inherit;
+
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+
+/*  */
+.filter-section {
+    padding: 20px;
+    background-color: #003335;
+    color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+.all-produc-page .card {
+    width: 24%;
+}
+ .filter-section h2 {
+     text-align: center;
+     font-size: 24px;
+     margin-bottom: 20px;
+ }
+
+ .filter-section input[type="text"],
+ .filter-section input[type="range"] {
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: none;
+     border-radius: 5px;
+ }
+
+ .filter-section select {
+     width: 100%;
+     padding: 10px;
+     margin: 10px 0;
+     border: none;
+     border-radius: 5px;
+ }
+
+ .filter-section label {
+     font-size: 14px;
+     display: block;
+     margin-bottom: 5px;
+ }
+
+ .filter-section .price-label {
+     text-align: center;
+ }
+
+ .filter-section .price-label span {
+     font-size: 16px;
+ }
+
+ .products-section {
+     flex: 1;
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .product-card {
+     width: 23%;
+     margin: 10px;
+     padding: 20px;
+     background-color: #fff;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     text-align: center;
+ }
+
+ .product-card h3 {
+     color: #003335;
+     font-size: 18px;
+     margin: 10px 0;
+ }
+
+ .product-card p {
+     font-size: 14px;
+     margin: 10px 0;
+     color: #555;
+ }
+
+ .product-card .price {
+     font-size: 16px;
+     font-weight: bold;
+     color: #003335;
+ }
+
+ .product-card button {
+     padding: 10px 20px;
+     background-color: #003335;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-top: 10px;
+ }
+
+ .product-card button:hover {
+     background-color: #005555;
+ }
+
+ .search-section {
+     width: 100%;
+     margin-bottom: 20px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .search-section input {
+     padding: 10px 15px;
+     font-size: 16px;
+     width: 80%;
+     border-radius: 5px;
+     border: 1px solid #ddd;
+ }
+@media screen and (max-width:576px)  {
+    .brandname img {
+            width: 135px;
+        }
+.card {padding: 0.6rem;}
+.prev-btn,
+.next-btn {
+width: 24px;
+font-size: 12px;
+height: 24px;
+
+}
+#bannerImage div img {
+height: 119px; border-radius: 10px;
+}
+.banner-container.container {
+padding: 0;
+}
+#cartBtn { font-size: 17px;}
+main {
+padding: 10px 10px;
+}
+.card h3 {
+font-size: 15px;
+}
+.addtocart {
+background: var(--bgdrak);
+width: 111px;
+height: 37px;
+font-size: 14px;
+}
+.card {
+
+width: 49%;
+margin-bottom: .6rem;
+}
+.bextPrevbuttons button {
+top: 37%;
+height: 24px;
+width: 24px;
+font-size: 11px;
+}
+.card img {
+height: 90px;
+object-fit: contain;
+}
+.mob-order-3 {
+order: 3;
+margin-top: 0.5rem;
+}
+.brandname img {
+width: 100% ;
+}
+.location {
+line-height: 15px;
+font-size: 12px;
+}
+.icons-title {
+font-size: 16px;
+}
+}
+
+
+@media screen and (min-width:573px) and (max-width:991px) {
+    .brandname img {
+            width: 135px;
+        }
+.bextPrevbuttons button {
+
+height: 35px;
+width: 35px;
+
+font-size: 14px;
+}
+    .banner-container.container-lg {
+            padding: 0 5px;
+        }
+        main {
+        padding: 15px 10px;
+        }
+        .card {
+
+        width: 32%;
+        }
+        #bannerImage div img {
+        height: 200px;
+
+        border-radius: 12px;
+        }
+        }

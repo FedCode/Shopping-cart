@@ -1,0 +1,28 @@
+Javascript questions
+
+(1) Event Loop & Async/Await behaviour
+(2) Promises & calll back & promises chaining & call back Hell
+(3) Call stack & Heap
+(4) Microtask Que & Call stack Memory heap
+(5) Hoisting
+(6) Event Bubling
+(7) this.keyword
+(8) Clousers
+(9) Prototype & Prototype Inheritance
+(10) Flatting Object & recurrsion
+(11) Call back
+(12) How javascript code executed
+(13) Call Bind debouncing hoisting
+
+React questions
+
+Codesandbox website for coding
+(1) loclastorgae, session storage, cookies
+(2) validation
+(3) Satemamnagement
+(4) React Lifecycle
+(5) code test cases
+(6) Design patterns: Singleton, factory, Observer
+(7) lazy loadding, splitting, cahcing startgies for frontend performance
+
+9996920172
